@@ -32,4 +32,4 @@ end
 
 post '/guess'do
 	player1 = params[:player1]
-	
+	end
