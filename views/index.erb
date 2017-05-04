@@ -1,0 +1,53 @@
+<html>
+<div class = background>
+
+<body class="background">
+<center><h1 class= "welcometitle">Welcome to Hangman !!!</h1>
+<h2 class= "h2style">Please enter your names?</h2>
+
+
+<!-- <body background="https://media.giphy.com/media/l2R0flMBPtMGU0wbm/giphy.gif"> -->
+<!-- <body background="http://i.imgur.com/izUnVsB.gif?noredirect"> -->
+<!-- <body background="https://68.media.tumblr.com/6dd611f4b3ed7981b259e27c2e84a1a2/tumblr_nnq6tlJNBY1utwxd1o1_500.gif"> -->
+<!-- <body background="http://38.media.tumblr.com/87b66ae7537679fc5707899ea4efb366/tumblr_nj4ituPxJf1sgw7hlo1_500.gif" -->
+<!-- <head> -->
+<!-- 	<style type="text/css">
+		body {
+			background-color: blue;
+			transition: background-color 7s;
+		}
+	</style>
+</head>
+<body>
+	<script type="text/javascript">
+		var colors = ["red", "orange", "yellow", "green", "blue", "indigo", "violet","tan","black","pink"];
+
+		var i = 1;
+
+		window.setInterval(function(){
+			document.body.style.backgroundColor = colors[i];
+			i++;
+			if (i === colors.length){
+				i=0;
+			}
+		}, 5000);
+	</script> -->
+<!-- </body> -->
+<!-- </html> -->
+
+
+<form action='player_names' method="post">
+	Player1
+	<input type="text" name="player1">	
+	<br>
+	<h1 class= "h1style">VERSUS</h1>
+	Player2
+	<input type="text" name="player2">
+	</br>
+	<input type="submit" value="ENTER">
+</form>
+</center>
+</body>
+</div>
+</html>
+
